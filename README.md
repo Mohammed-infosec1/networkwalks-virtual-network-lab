@@ -17,7 +17,7 @@ First, I created a NAT Network in VirtualBox and named it `NatNetwork`. I used t
 
 This gave my virtual machines a network they could both connect to. I configured the machine IP addresses manually for the lab.
 
-![VirtualBox NAT Network settings](images/01-nat-network.png)
+![VirtualBox NAT Network settings](01-nat-network.png)
 
 ## 2. Giving Kali Linux an IP address
 
@@ -31,7 +31,7 @@ I used these settings:
 
 This is the address of my Kali Linux machine inside our virtual network.
 
-![Kali Linux IPv4 settings](images/02-kali-linux-ip.png)
+![Kali Linux IPv4 settings](02-kali-linux-ip.png)
 
 ## 3. Giving Windows an IP address
 
@@ -42,7 +42,7 @@ After that, I configured the Windows virtual machine with a different IP address
 - Default gateway: `10.0.0.1`
 - Preferred DNS: `8.8.8.8`
 
-![Windows IPv4 settings](images/03-windows-ip.png)
+![Windows IPv4 settings](03-windows-ip.png)
 
 ## Result
 
